@@ -14,7 +14,7 @@ class Player:
     self.max_health = random.randint(18, 24) # The max health value will be random, but higher than the others.
     self.health = self.max_health # Set the current health equal to the max health.
     print("Player " + self.name + " has entered the game. \n  Strength: " + str(self.strength) + "\n  Defense: " + str(self.defense) + "\n  Speed: " + str(self.speed) + "\n  Maximum health: " + str(self.max_health) + ".\n")
-    ## We're going to also manipulate the two class variables - While each user has their own specific defense or strength, the users all share the class variables that start with @@.
+    ## We're going to also manipulate the two class variables - While each user has their own specific defense or strength, the users all share the class variables defined above this method.
     Player.player_list.append(self) ## The player will be added to the list of players.
     Player.player_count += 1 ## The player count should go up by one.
     print("There are currently " + str(Player.player_count) + " player(s) in the game.\n\n")
