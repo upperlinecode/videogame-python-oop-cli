@@ -50,7 +50,7 @@ Below is a list of challenges - ways you could make this game a lot better. Befo
 ---
 
 8. Our Players can currently only attack each other. We should consider making an `Enemy` class to generate opponents for them. This class should have a lot of the same properties as a Player (like `self.strength` and `self.ame` etc.) but we should maybe also be able to stipulate how powerful that enemy is.
-    * For example, `Enemy("Goblin", 1)` would could create an enemy named Goblin that fights with similar strength to a level 1 player, and `Enemy("Troll", 7)` could be a more powerful enemy that's meant to be a challenge for a level 7 player.
+    * For example, `Enemy("Goblin", 1)` could create an enemy named Goblin that fights with similar strength to a level 1 player, and `Enemy("Troll", 7)` could be a more powerful enemy that's meant to be a challenge for a level 7 player.
 ---
 
 9. Our game is getting big. It probably makes sense for us to make an entire class to hold the game. Just like our Battle class holds two characters, we should maybe make a `Game` class.
