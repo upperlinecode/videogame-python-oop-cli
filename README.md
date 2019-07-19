@@ -25,7 +25,7 @@ Below is a list of challenges - ways you could make this game a lot better. Befo
 ---
 
 3. Right now, the player has no choice about what to do. The only method a Player has that can do anything is the "attack(self, target)" method. Let's give them some other options.
-    * We'll need to modify the Battle class `start` method to ask the user what they want to do every turn, and then run an `input() to see what they say.
+    * We'll need to modify the Battle class `start` method to ask the user what they want to do every turn, and then run an `input()` to see what they say.
     * We'll also need to add some more methods to the Player class. Some ideas for those methods:
       * `rest(self)` could have the player restore health that turn instead of attacking.
       * `special_attack(self, target)` could have the player do EXTRA damage that turn, but then need to skip their next turn.
