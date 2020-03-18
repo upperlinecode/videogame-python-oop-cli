@@ -1,5 +1,7 @@
 # Play a Command-Line Video Game.
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/videogame-python-oop-cli)](https://repl.it/github/upperlinecode/videogame-python-oop-cli)
+
 ### Try it out
 
 The code in this repository is actually already a working game. The trouble is, it's pretty boring. To see it run, type `python test.py` in terminal and see what happens.
